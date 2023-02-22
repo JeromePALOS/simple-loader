@@ -4,8 +4,8 @@
 
 ## Install
 ```HTML
-        <link href="style.css" rel="stylesheet">
-        <script src="js.js"></script>
+        <link href="simple-loader.css" rel="stylesheet">
+        <script src="simple-loader.js"></script>
 ```
 
 
