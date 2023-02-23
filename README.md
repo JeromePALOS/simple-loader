@@ -14,7 +14,7 @@
 ### Play
 
 ```JS
-var load = new Loadding();
+var load = new Loader();
 
 ```
 
@@ -28,7 +28,7 @@ var load.stop();
 ### Time
 
 ```JS
-var a = new Loading();
+var a = new Loader();
 setTimeout(function(){
     a.stop();
 }, 1000);
