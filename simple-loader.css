@@ -5,8 +5,9 @@
     position: fixed;
     top: 0;
     left: 0;
-    opacity: .8;
-    background-image: radial-gradient(circle farthest-corner at center, #3C4B57 100%, #1C262B 100%);
+    opacity: .7;
+
+    animation: background .5s ease forwards;
 }
 
 .loader > div {
@@ -29,5 +30,15 @@
 
     100% {
         transform: rotateX(0deg) rotateY(0deg) rotateZ(360deg);
+    }
+}
+
+@keyframes background {
+    0% {
+        background: transparent;
+    }
+
+    100% {
+        background: #4B6C7C;
     }
 }

@@ -2,7 +2,6 @@ class Loader {
     constructor(parent = null) {
         var blocLoader = document.createElement('div');
         blocLoader.classList.add('loader');
-        blocLoader.innerHTML = 'e';
 
         var eltLoader = document.createElement('div');
 
