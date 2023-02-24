@@ -8,6 +8,7 @@ class Loader {
         blocLoader.appendChild(eltLoader);
         if(parent === null){
             document.body.prepend(blocLoader);
+            blocLoader.style.position = 'fixed';
         }else{
             parent.prepend(blocLoader);
         }
